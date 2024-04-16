@@ -1,0 +1,65 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AEDB\\Documents\\GetIPS\\GetIPS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A8D887E-3364-43A3-B77B-C1310A9F97C6}|GetIPS\\GetIPS.pyproj|C:\\Users\\AEDB\\Documents\\GetIPS\\GetIPS\\GetIPS\\GetIPS.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6A8D887E-3364-43A3-B77B-C1310A9F97C6}|GetIPS\\GetIPS.pyproj|solutionrelative:GetIPS\\GetIPS.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetIPS.py",
+              "DocumentMoniker": "C:\\Users\\AEDB\\Documents\\GetIPS\\GetIPS\\GetIPS\\GetIPS.py",
+              "RelativeDocumentMoniker": "GetIPS\\GetIPS.py",
+              "ToolTip": "C:\\Users\\AEDB\\Documents\\GetIPS\\GetIPS\\GetIPS\\GetIPS.py",
+              "RelativeToolTip": "GetIPS\\GetIPS.py",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-04-15T23:51:23.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1214,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1214,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
