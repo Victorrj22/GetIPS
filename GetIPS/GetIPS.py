@@ -4,20 +4,20 @@ import ipaddress
 import netifaces as ni
 from scapy.all import Ether, ARP, srp, conf
 
-# Obtém o nome da interface de rede
+# Obtï¿½m o nome da interface de rede
 interface = ni.gateways()['default'][ni.AF_INET][1]
 
-# Obter o endereço IP e a máscara de rede da interface de rede
+# Obter o endereï¿½o IP e a mï¿½scara de rede da interface de rede
 endereco_ip = ni.ifaddresses(interface)[ni.AF_INET][0]['addr']
 mascara_rede = ni.ifaddresses(interface)[ni.AF_INET][0]['netmask']
 
-# Encontra todos os IPs no range da máscara de rede
+# Encontra todos os IPs no range da mï¿½scara de rede
 rede = ipaddress.IPv4Network(endereco_ip + '/' + mascara_rede, strict=False)
 ips_na_rede = [str(ip) for ip in rede.hosts()]
 
 dispositivos_conectados = []
 
-# Faz o "ping" nas redes disponíveis
+# Faz o "ping" nas redes disponï¿½veis
 for ip in ips_na_rede:
     resposta = srp(Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(pdst=ip), timeout=2, verbose=0)[0]
     if resposta:
