@@ -1,9 +1,0 @@
-{
-    "editor.autoSurround": "languageDefined",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.autoIndent": "full",
-    "editor.inlayHints.enabled": "on",
-    "cSpell.enableFiletypes": [
-        "!python"
-    ]
-}
